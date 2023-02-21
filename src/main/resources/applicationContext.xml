@@ -7,6 +7,14 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="someCar"
+          class="org.skypro.Car">
+    </bean>
+    <bean id="somePerson"
+          class="org.skypro.Person">
+                <constructor-arg ref="someCar"/>
+    </bean>
+
 
 
 </beans>
