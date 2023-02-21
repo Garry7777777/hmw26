@@ -12,7 +12,9 @@
     </bean>
     <bean id="somePerson"
           class="org.skypro.Person">
-                <constructor-arg ref="someCar"/>
+        <!--                <constructor-arg ref="someCar"/> -->
+                            <property name="car" ref="someCar"/>
+
     </bean>
 
 

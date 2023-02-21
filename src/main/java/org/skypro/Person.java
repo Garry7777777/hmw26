@@ -2,9 +2,9 @@ package org.skypro;
 
 public class Person {
 
-    private final Car car;
+    private  Car car;
 
-    public Person(Car car) {
+    public void setCar(Car car) {
         this.car = car;
     }
 
